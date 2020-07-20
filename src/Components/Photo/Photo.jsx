@@ -16,13 +16,13 @@ function Photo() {
 			/>
 			<MenuLeft
 				image={erikaImage} //
-				title="Blue Angels"
-				link="/photo/blueangels"
+				title="Cherry Blossom Festival"
+				link="/photo/cherryblossom"
 			/>
 			<MenuLeft
 				image={erikaImage} //
-				title="Something Else"
-				link="/photo/else"
+				title="Blue Angels"
+				link="/photo/blueangels"
 			/>
 		</div>
 	);

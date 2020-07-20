@@ -1,8 +1,8 @@
 import React from 'react';
 
-import style from './Project.module.css';
+import style from './PhotoProject.module.css';
 
-function Project() {
+function PhotoProject() {
 	return (
 		<div className={style.projectContainer}>
 			<h1>Project view</h1>
@@ -10,4 +10,4 @@ function Project() {
 	);
 }
 
-export default Project;
+export default PhotoProject;
