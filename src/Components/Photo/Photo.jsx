@@ -15,6 +15,7 @@ function Photo() {
 				image={erikaImage} //
 				title="Erika"
 				link="/photo/erika"
+				isEnglish={true}
 			/>
 			<MenuLeft
 				image={cherryImage} //

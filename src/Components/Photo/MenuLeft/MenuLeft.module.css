@@ -44,12 +44,13 @@
 
 .sectionTitleJp {
 	margin-top: 25%;
-	font-family: 'Sawarabi Mincho', serif;
+	font-family: 'Noto Serif JP', serif;
 
 	font-weight: 400;
 	font-size: 8rem;
 	text-align: left;
 	color: var(--nord0);
+	writing-mode: vertical-lr;
 }
 
 .sectionTitleJp:hover {
