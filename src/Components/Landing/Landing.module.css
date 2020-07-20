@@ -10,11 +10,11 @@
 }
 
 .landingItems {
-	margin-top: calc((100vh / 2) - (740px / 2));
-	/* 742 is pixel height of items */
+	margin-top: calc((100vh / 2) - (642px / 2));
+	/* 642 is pixel height of items */
 	margin-left: 0;
 	margin-right: 0;
-	margin-bottom: calc((100vh / 2) - (740px / 2));
+	margin-bottom: calc((100vh / 2) - (642px / 2));
 
 	max-width: 1000px;
 }
@@ -33,9 +33,9 @@ a:link {
 	font-size: 8rem;
 	font-weight: 500;
 
-	color: black;
+	color: var(--nord0);
 }
 
 .linkText:hover {
-	color: #434c5e;
+	color: var(--nord3);
 }

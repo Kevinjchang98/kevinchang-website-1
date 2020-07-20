@@ -25,7 +25,14 @@
 	margin-top: 25vh;
 	margin-bottom: 2.5vh;
 
-	font-family: "Lora", sans-serif;
+	font-family: "Lora", serif;
 	font-weight: 400;
 	font-size: 5rem;
+
+	color: var(--nord0);
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	color: var(--nord0);
 }

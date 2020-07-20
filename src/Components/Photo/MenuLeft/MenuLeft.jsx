@@ -1,11 +1,10 @@
 import React from 'react';
 import style from './MenuLeft.module.css';
 import { Parallax } from 'react-scroll-parallax';
+import { Link } from 'react-router-dom';
 
 function MenuLeft(props) {
-	const image = props.image;
-	const title = props.title;
-	const description = props.description;
+	const { image, title, description, link, isEnglish } = props;
 
 	return (
 		<div className={style.mainContainer}>
@@ -14,15 +13,15 @@ function MenuLeft(props) {
 					<img className={style.image} src={image} alt="asdf" />
 				</div>
 			</Parallax>
-			<div className={style.textContainer}>
+			<Link to={link} className={style.textContainer}>
 				<Parallax y={[ -10, 10 ]}>
-					<h1 className={style.sectionTitle}>{title}</h1>
+					<h1 className={isEnglish ? style.sectionTitle : style.sectionTitleJp}>{title}</h1>
 				</Parallax>
 
 				<Parallax className={style.descriptionContainer} y={[ -5, 5 ]}>
 					{description}
 				</Parallax>
-			</div>
+			</Link>
 		</div>
 	);
 }

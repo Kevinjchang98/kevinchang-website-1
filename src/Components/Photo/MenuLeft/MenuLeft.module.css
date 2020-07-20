@@ -16,7 +16,7 @@
 .imageContainer {
 	position: relative;
 	margin-top: 100px;
-	margin-left: 400px;
+	margin-left: 15vw;
 
 	width: auto;
 	height: 75vh;
@@ -29,17 +29,31 @@
 /* Styles */
 
 .sectionTitle {
-	margin-top: 10%;
+	margin-top: 25%;
 	font-family: 'Lora', serif;
 
 	font-weight: 400;
-	font-size: 10rem;
+	font-size: 8rem;
 	text-align: left;
-	color: black;
+	color: var(--nord0);
 }
 
 .sectionTitle:hover {
-	color: #434c5e;
+	color: var(--nord3);
+}
+
+.sectionTitleJp {
+	margin-top: 25%;
+	font-family: 'Sawarabi Mincho', serif;
+
+	font-weight: 400;
+	font-size: 8rem;
+	text-align: left;
+	color: var(--nord0);
+}
+
+.sectionTitleJp:hover {
+	color: var(--nord3);
 }
 
 .descriptionContainer {
