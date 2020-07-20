@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import style from './Photo.module.css';
 import MenuLeft from './MenuLeft/MenuLeft';
@@ -10,19 +9,20 @@ function Photo() {
 	return (
 		<div className={style.photoContainer}>
 			{/* Consider putting link inside component so sides aren't clickable maybe */}
-			<Link to="/photo/erika">
-				<MenuLeft
-					image={erikaImage} //
-					title="Erika"
-				/>
-			</Link>
+			<MenuLeft
+				image={erikaImage} //
+				title="Erika"
+				link="/photo/erika"
+			/>
 			<MenuLeft
 				image={erikaImage} //
 				title="Blue Angels"
+				link="/photo/blueangels"
 			/>
 			<MenuLeft
 				image={erikaImage} //
 				title="Something Else"
+				link="/photo/else"
 			/>
 		</div>
 	);

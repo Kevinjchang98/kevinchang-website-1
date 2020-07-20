@@ -6,6 +6,7 @@ import Header from './Components/Header/Header';
 import Landing from './Components/Landing/Landing';
 import Photo from './Components/Photo/Photo';
 import Contact from './Components/Contact/Contact';
+import Project from './Components/Photo/Project/Project';
 
 function App() {
 	return (
@@ -15,11 +16,14 @@ function App() {
 				<Switch>
 					<Route path="/" exact>
 						<Landing />
-						<Contact />
 					</Route>
 
 					<Route path="/photo" exact>
 						<Photo />
+					</Route>
+
+					<Route path="/photo/erika" exact>
+						<Project />
 					</Route>
 
 					<Route path="/contact" exact>

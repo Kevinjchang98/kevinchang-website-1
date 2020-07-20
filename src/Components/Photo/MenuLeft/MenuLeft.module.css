@@ -29,17 +29,17 @@
 /* Styles */
 
 .sectionTitle {
-	margin-top: 10%;
+	margin-top: 25%;
 	font-family: 'Lora', serif;
 
 	font-weight: 400;
-	font-size: 10rem;
+	font-size: 8rem;
 	text-align: left;
-	color: black;
+	color: var(--nord0);
 }
 
 .sectionTitle:hover {
-	color: #434c5e;
+	color: var(--nord3);
 }
 
 .descriptionContainer {
