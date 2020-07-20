@@ -8,7 +8,7 @@ import erikaImage from './img/erika/1.png';
 
 function Photo() {
 	return (
-		<div>
+		<div className={style.photoContainer}>
 			{/* Consider putting link inside component so sides aren't clickable maybe */}
 			<Link to="/photo/erika">
 				<MenuLeft
