@@ -11,7 +11,7 @@ function MenuItem(props) {
 			<div className={style.spacer} />
 
 			<p className={style.detail}>
-				<a href={githubLink} target="_blank">
+				<a href={githubLink} target="_blank" rel="noopener noreferrer">
 					{date}
 					<br />
 					{lang}
