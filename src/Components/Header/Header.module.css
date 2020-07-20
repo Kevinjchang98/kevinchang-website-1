@@ -1,0 +1,21 @@
+.headerContainer {
+	padding-left: 50px;
+	padding-top: 40px;
+	padding-right: 50px;
+
+	display: flex;
+	justify-content: center;
+}
+
+.middleContainer {
+	flex: 2;
+	max-width: 1500px;
+}
+
+.headerText {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	font-size: x-large;
+	color: black;
+}

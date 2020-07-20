@@ -1,0 +1,41 @@
+.landingContainer {
+	margin: 0;
+
+	display: flex;
+	justify-content: center;
+}
+
+.empty {
+	flex: 1;
+}
+
+.landingItems {
+	margin-top: calc((100vh / 2) - (742px / 2));
+	/* 742 is pixel height of items */
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+
+	max-width: 1000px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.linkText {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 50px;
+
+	font-family: 'Lora', serif;
+	font-size: 8rem;
+	font-weight: 500;
+
+	color: black;
+}
+
+.linkText:hover {
+	color: #434c5e;
+}
