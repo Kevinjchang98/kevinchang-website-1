@@ -21,6 +21,11 @@ function App() {
 					<Route path="/photo" exact>
 						<Photo />
 					</Route>
+
+					<Route path="/contact" exact>
+						<Contact />
+						{/* Consider making this go to landing page but scrolled down instead of a separate page */}
+					</Route>
 				</Switch>
 			</ParallaxProvider>
 		</Router>

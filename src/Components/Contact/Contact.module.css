@@ -3,7 +3,8 @@
 	display: flex;
 	flex-direction: column;
 
-	height: 100vh;
+	height: calc(100vh - 65px);
+	/* TODO: Height is 65 instead of proper 69 to force scrollbar to render on /contact domains */
 }
 
 .contentContainer {
