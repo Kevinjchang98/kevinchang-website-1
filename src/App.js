@@ -26,10 +26,18 @@ function App() {
 					<Route path="/photo/erika" exact>
 						<PhotoProject />
 					</Route>
+
 					<Route path="/photo/cherryblossom" exact>
 						<VideoProject
 							title="Cherry Blossom Festival" //
 							url="https://vimeo.com/266251749"
+						/>
+					</Route>
+
+					<Route path="/photo/nanjing" exact>
+						<VideoProject
+							title="This is Nanjing" //
+							url="https://vimeo.com/229436315"
 						/>
 					</Route>
 

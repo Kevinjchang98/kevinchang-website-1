@@ -4,7 +4,7 @@ import { Parallax } from 'react-scroll-parallax';
 import { Link } from 'react-router-dom';
 
 function MenuLeft(props) {
-	const { image, title, description, link } = props;
+	const { image, title, description, link, isEnglish } = props;
 
 	return (
 		<div className={style.mainContainer}>
@@ -15,7 +15,7 @@ function MenuLeft(props) {
 			</Parallax>
 			<Link to={link} className={style.textContainer}>
 				<Parallax y={[ -10, 10 ]}>
-					<h1 className={style.sectionTitle}>{title}</h1>
+					<h1 className={isEnglish ? style.sectionTitle : style.sectionTitleJp}>{title}</h1>
 				</Parallax>
 
 				<Parallax className={style.descriptionContainer} y={[ -5, 5 ]}>
