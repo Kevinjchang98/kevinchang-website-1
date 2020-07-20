@@ -1,0 +1,52 @@
+/* Containers */
+.mainContainer {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+}
+
+.textContainer {
+	margin-right: 150px;
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 40%;
+	max-width: 1000px;
+}
+
+.imageContainer {
+	position: relative;
+	margin-top: 100px;
+	margin-left: 400px;
+
+	width: auto;
+	height: 75vh;
+}
+
+.image {
+	height: 100%;
+}
+
+/* Styles */
+
+.sectionTitle {
+	margin-top: 10%;
+	font-family: 'Lora', serif;
+
+	font-weight: 400;
+	font-size: 10rem;
+	text-align: left;
+	color: black;
+}
+
+.sectionTitle:hover {
+	color: #434c5e;
+}
+
+.descriptionContainer {
+	padding-left: 12px;
+	border-left: 2px solid gray;
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.3rem;
+	text-align: left;
+}
