@@ -6,9 +6,9 @@
 }
 
 .textContainer {
-	margin-right: 150px;
+	margin-left: 150px;
 	margin-top: 100px;
-	margin-left: 8vw;
+	margin-right: 8vw;
 	width: 40%;
 	max-width: 1000px;
 }
@@ -16,7 +16,7 @@
 .imageContainer {
 	position: relative;
 	margin-top: 100px;
-	margin-left: 15vw;
+	margin-right: 15vw;
 
 	width: auto;
 	height: 75vh;
@@ -34,7 +34,7 @@
 
 	font-weight: 400;
 	font-size: 8rem;
-	text-align: left;
+	text-align: right;
 	color: var(--nord0);
 }
 
@@ -44,14 +44,14 @@
 
 .sectionTitleJp {
 	margin-top: 25%;
-	margin-left: 7vw;
+	margin-right: 6vw;
 	font-family: 'Noto Serif JP', serif;
 
 	font-weight: 400;
 	font-size: 8rem;
-	text-align: left;
+	text-align: right;
 	color: var(--nord0);
-	writing-mode: vertical-lr;
+	writing-mode: vertical-rl;
 }
 
 .sectionTitleJp:hover {

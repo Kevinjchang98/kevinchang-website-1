@@ -6,6 +6,7 @@ import MenuLeft from './MenuLeft/MenuLeft';
 import erikaImage from './img/erika.png';
 import nanjingImage from './img/nanjing.png';
 import cherryImage from './img/cherryblossom.png';
+import MenuRight from './MenuRight/MenuRight';
 
 function Photo() {
 	return (
@@ -15,12 +16,14 @@ function Photo() {
 				image={erikaImage} //
 				title="Erika"
 				link="/photo/erika"
+				isEnglish={true}
 			/>
-			<MenuLeft
+			<MenuRight
 				image={cherryImage} //
 				title="桜まつり"
 				link="/photo/cherryblossom"
 				isEnglish={false}
+				imageRight={true}
 			/>
 			<MenuLeft
 				image={nanjingImage} //

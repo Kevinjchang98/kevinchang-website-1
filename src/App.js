@@ -8,6 +8,7 @@ import Photo from './Components/Photo/Photo';
 import Contact from './Components/Contact/Contact';
 import PhotoProject from './Components/Photo/PhotoProject/PhotoProject';
 import VideoProject from './Components/Photo/VideoProject/VideoProject';
+import Coding from './Components/Coding/Coding';
 
 function App() {
 	return (
@@ -39,6 +40,10 @@ function App() {
 							title="This is Nanjing" //
 							url="https://vimeo.com/229436315"
 						/>
+					</Route>
+
+					<Route path="/programming" exact>
+						<Coding />
 					</Route>
 
 					<Route path="/contact" exact>
