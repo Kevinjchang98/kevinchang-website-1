@@ -20,7 +20,7 @@ function Photo() {
 			/>
 			<MenuRight
 				image={cherryImage} //
-				title="桜まつり"
+				title="桜祭り"
 				link="/photo/cherryblossom"
 				isEnglish={false}
 				imageRight={true}
