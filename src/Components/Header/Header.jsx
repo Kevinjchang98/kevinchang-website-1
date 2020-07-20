@@ -11,7 +11,7 @@ function Header() {
 			</Link>
 			<span className={style.middleContainer} />
 			<Link to="/contact">
-				<p className={style.headerText}>Contact me</p>
+				<p className={style.headerText}>Contact</p>
 			</Link>
 		</div>
 	);

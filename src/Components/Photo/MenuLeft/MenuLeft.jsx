@@ -10,7 +10,7 @@ function MenuLeft(props) {
 		<div className={style.mainContainer}>
 			<Parallax y={[ 50, -50 ]}>
 				<div className={style.imageContainer}>
-					<img className={style.image} src={image} alt="asdf" />
+					<img className={style.image} src={image} alt="Thumbnail" />
 				</div>
 			</Parallax>
 			<Link to={link} className={style.textContainer}>

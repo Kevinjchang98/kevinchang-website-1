@@ -19,7 +19,7 @@ function MenuRight(props) {
 			</Link>
 			<Parallax y={[ 50, -50 ]}>
 				<div className={style.imageContainer}>
-					<img className={style.image} src={image} alt="asdf" />
+					<img className={style.image} src={image} alt="Thumbnail" />
 				</div>
 			</Parallax>
 		</div>

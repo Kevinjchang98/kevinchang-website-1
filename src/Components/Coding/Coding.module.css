@@ -1,0 +1,19 @@
+.codingContainer {
+	margin: 100px 0 0 0;
+
+	display: flex;
+	justify-content: center;
+}
+
+.menuContainer {
+	width: 70vw;
+	max-width: 1000px;
+}
+
+.title {
+	margin-top: 20px;
+
+	font-family: "Lora", serif;
+	font-size: 8rem;
+	font-weight: 400;
+}
