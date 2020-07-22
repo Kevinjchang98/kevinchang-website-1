@@ -9,5 +9,9 @@
 }
 
 .videoTitle {
-	margin: 70px 0 20px 0;
+	margin: 70px 0 0 0;
+
+	font-family: 'Lora', serif;
+	font-size: 4rem;
+	font-weight: 400;
 }
