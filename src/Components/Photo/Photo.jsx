@@ -11,7 +11,7 @@ import FadeIn from 'react-fade-in';
 
 function Photo() {
 	return (
-		<FadeIn>
+		<FadeIn className={style.mainContainer}>
 			<div className={style.photoContainer}>
 				{/* Consider putting link inside component so sides aren't clickable maybe */}
 				<MenuLeft

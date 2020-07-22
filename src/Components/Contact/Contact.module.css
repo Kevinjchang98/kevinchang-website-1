@@ -1,5 +1,5 @@
 .contactContainer {
-	margin: 0;
+	margin: 7vh 0 0 0;
 	display: flex;
 	flex-direction: column;
 
@@ -32,7 +32,18 @@
 	color: var(--nord0);
 }
 
-body {
+.subsectionTitle {
 	font-family: "Raleway", sans-serif;
 	color: var(--nord0);
+
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.details {
+	font-family: "Raleway", sans-serif;
+	color: var(--nord0);
+
+	font-size: 1.5rem;
+	font-weight: 100;
 }

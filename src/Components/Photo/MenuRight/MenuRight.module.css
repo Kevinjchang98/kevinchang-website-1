@@ -20,6 +20,7 @@
 
 	width: auto;
 	height: 75vh;
+	max-height: 1500px;
 }
 
 .image {

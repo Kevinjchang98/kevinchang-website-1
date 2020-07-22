@@ -1,0 +1,18 @@
+.projectContainer {
+	margin-top: 150px;
+
+	display: flex;
+	justify-content: center;
+}
+
+.contentContainer {
+	margin: 0 200px 0 200px;
+
+	max-width: 1500px;
+	min-width: 400px;
+}
+
+.projectTitle {
+	font-family: 'Lora', serif;
+	font-size: 4rem;
+}
