@@ -15,4 +15,17 @@
 .projectTitle {
 	font-family: 'Lora', serif;
 	font-size: 4rem;
+	color: var(--nord0);
+}
+
+.subheading {
+	font-family: 'Lora', serif;
+	font-size: 2rem;
+	color: var(--nord0);
+}
+
+p {
+	font-family: 'raleway';
+
+	color: var(--nord0);
 }

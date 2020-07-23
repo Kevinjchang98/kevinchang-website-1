@@ -2,6 +2,7 @@ import React from 'react';
 
 import style from '../Project.module.css';
 import FadeIn from 'react-fade-in';
+import NavFooter from '../../NavFooter/NavFooter';
 
 function PersonalWebsite() {
 	return (
@@ -39,6 +40,8 @@ function PersonalWebsite() {
 					blandit, elit mi posuere sapien, eget posuere mi metus a nisi. Maecenas massa metus, malesuada eu ex
 					id, convallis viverra justo. Suspendisse id elit id est viverra ultricies ac in purus.
 				</p>
+
+				<NavFooter siteLink="" githubLink="https://github.com/Kevinjchang98/kevinchang-website" />
 			</FadeIn>
 		</div>
 	);
