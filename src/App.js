@@ -12,6 +12,8 @@ import Coding from './Components/Coding/Coding';
 import Music from './Components/Music/Music';
 import PersonalWebsite from './Components/Coding/IndividualProjects/PersonalWebsite/PersonalWebsite';
 import LoLStats from './Components/Coding/IndividualProjects/LoLStats/LoLStats';
+import Phys from './Components/Coding/IndividualProjects/Phys/Phys';
+import NavFooter from './Components/Coding/NavFooter/NavFooter';
 
 function App() {
 	return (
@@ -54,7 +56,11 @@ function App() {
 					</Route>
 
 					<Route path="/programming/lolstats" exact>
-						<LoLStats />
+						<LoLStats siteLink="" githubLink="" />
+					</Route>
+
+					<Route path="/programming/phys" exact>
+						<Phys />
 					</Route>
 
 					<Route path="/music" exact>

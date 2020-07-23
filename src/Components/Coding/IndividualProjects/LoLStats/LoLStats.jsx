@@ -2,21 +2,18 @@ import React from 'react';
 
 import style from '../Project.module.css';
 import FadeIn from 'react-fade-in';
+import NavFooter from '../../NavFooter/NavFooter';
 
 function LoLStats() {
 	return (
 		<div className={style.projectContainer}>
 			<FadeIn className={style.contentContainer}>
-				<h1 className={style.projectTitle}>Individual writeup thing</h1>
+				<h1 className={style.projectTitle}>League of Legends Player Stats</h1>
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget ex metus. Ut iaculis sem
-					metus, at ultricies ipsum mollis vitae. Mauris lorem sapien, varius vitae ex sed, pulvinar facilisis
-					lacus. Integer ac sagittis metus. Proin varius odio quis luctus dictum. Proin vestibulum id felis
-					dapibus mollis. Ut varius ligula ut sem porttitor, eu aliquet elit suscipit. Praesent tristique quam
-					odio, ut consectetur purus tempus ut. Vestibulum ante ipsum primis in faucibus orci luctus et
-					ultrices posuere cubilia curae; Sed id nulla facilisis, fringilla eros in, eleifend tortor. Nam
-					fringilla nisl ac elementum finibus.
+					Done for Informatics 201 at University of Washington, this was the final group project built using R
+					and Shiny. The purpose was to demonstrate knowledge in data manipulation, analysis and interactive
+					data visualization.
 				</p>
 
 				<p>
@@ -39,6 +36,11 @@ function LoLStats() {
 					blandit, elit mi posuere sapien, eget posuere mi metus a nisi. Maecenas massa metus, malesuada eu ex
 					id, convallis viverra justo. Suspendisse id elit id est viverra ultricies ac in purus.
 				</p>
+
+				<NavFooter
+					siteLink="https://kevinjchang98.shinyapps.io/final-project-Kevinjchang98/"
+					githubLink="https://github.com/Kevinjchang98/INFO201-LoLStats"
+				/>
 			</FadeIn>
 		</div>
 	);

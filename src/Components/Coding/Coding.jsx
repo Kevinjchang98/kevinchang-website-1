@@ -15,7 +15,7 @@ function Coding() {
 						<Link to="/programming/personalwebsite">
 							<MenuItem
 								title="kevinchang.com"
-								date="Jul 20, 2020"
+								date="July, 2020"
 								lang="ReactJS"
 								githubLink="https://github.com/Kevinjchang98/kevinchang-website"
 							/>
@@ -24,18 +24,20 @@ function Coding() {
 						<Link to="/programming/lolstats">
 							<MenuItem
 								title="LoL Stats"
-								date="Jun 8, 2020"
+								date="Spring, 2020"
 								lang="R"
 								githubLink="https://github.com/Kevinjchang98/INFO201-League-Stats"
 							/>
 						</Link>
 
-						<MenuItem
-							title="Various Physics Labs"
-							date="Jun 8, 2020"
-							lang="Matlab, LaTeX"
-							githubLink="https://github.com/Kevinjchang98/PHYS432"
-						/>
+						<Link to="/programming/phys">
+							<MenuItem
+								title="Various Physics Labs"
+								date="Spring, 2020"
+								lang="Matlab, LaTeX"
+								githubLink="https://github.com/Kevinjchang98/PHYS432"
+							/>
+						</Link>
 					</FadeIn>
 				</div>
 			</div>
