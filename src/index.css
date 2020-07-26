@@ -22,3 +22,7 @@ a {
 a:hover {
 	color: var(--nord3);
 }
+
+.react-images__view-image {
+	max-height: 100vh !important;
+}

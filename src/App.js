@@ -14,6 +14,10 @@ import PersonalWebsite from './Components/Coding/IndividualProjects/PersonalWebs
 import LoLStats from './Components/Coding/IndividualProjects/LoLStats/LoLStats';
 import Phys from './Components/Coding/IndividualProjects/Phys/Phys';
 
+import { photosErika } from './images/photoProjects/erika-portraits/photos';
+import { photosBlueAngels } from './images/photoProjects/blue-angels/photos';
+import { photosDaily } from './images/photoProjects/nikonf3test/photos';
+
 function App() {
 	return (
 		<Router>
@@ -29,7 +33,15 @@ function App() {
 					</Route>
 
 					<Route path="/photo/erika" exact>
-						<PhotoProject />
+						<PhotoProject photos={photosErika} title="Erika Portraits" />
+					</Route>
+
+					<Route path="/photo/blueangels" exact>
+						<PhotoProject photos={photosBlueAngels} title="Blue Angels" />
+					</Route>
+
+					<Route path="/photo/thedaily" exact>
+						<PhotoProject photos={photosDaily} title="The Daily Test Shots" />
 					</Route>
 
 					<Route path="/photo/cherryblossom" exact>

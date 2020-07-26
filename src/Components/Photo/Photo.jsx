@@ -2,12 +2,14 @@ import React from 'react';
 
 import style from './Photo.module.css';
 import MenuLeft from './MenuLeft/MenuLeft';
+import MenuRight from './MenuRight/MenuRight';
+import FadeIn from 'react-fade-in';
 
 import erikaImage from './img/erika.png';
 import nanjingImage from './img/nanjing.png';
 import cherryImage from './img/cherryblossom.png';
-import MenuRight from './MenuRight/MenuRight';
-import FadeIn from 'react-fade-in';
+import dailyImage from './img/daily.png';
+import blueAngelsImage from './img/blueangels.png';
 
 function Photo() {
 	return (
@@ -21,11 +23,22 @@ function Photo() {
 					isEnglish={true}
 				/>
 				<MenuRight
+					image={dailyImage} //
+					title="The Daily"
+					link="/photo/thedaily"
+					isEnglish={true}
+				/>
+				<MenuLeft
 					image={cherryImage} //
 					title="桜祭り"
 					link="/photo/cherryblossom"
 					isEnglish={false}
-					imageRight={true}
+				/>
+				<MenuRight
+					image={blueAngelsImage} //
+					title="Blue Angels"
+					link="/photo/blueangels"
+					isEnglish={true}
 				/>
 				<MenuLeft
 					image={nanjingImage} //

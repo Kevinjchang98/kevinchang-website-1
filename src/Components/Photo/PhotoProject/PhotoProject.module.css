@@ -1,7 +1,22 @@
 .projectContainer {
-	margin-top: 150px;
+	margin: 150px 0 0 0;
 
 	display: flex;
-
 	justify-content: center;
+}
+
+.contentContainer {
+	min-width: calc(100vw - 125px);
+	max-width: 2400px;
+
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.title {
+	margin: 0;
+
+	font-family: "Lora", serif;
+	font-size: 8rem;
+	font-weight: 400;
 }
