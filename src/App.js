@@ -9,11 +9,10 @@ import Contact from './Components/Contact/Contact';
 import PhotoProject from './Components/Photo/PhotoProject/PhotoProject';
 import VideoProject from './Components/Photo/VideoProject/VideoProject';
 import Coding from './Components/Coding/Coding';
-import Music from './Components/Music/Music';
+import About from './Components/About/About';
 import PersonalWebsite from './Components/Coding/IndividualProjects/PersonalWebsite/PersonalWebsite';
 import LoLStats from './Components/Coding/IndividualProjects/LoLStats/LoLStats';
 import Phys from './Components/Coding/IndividualProjects/Phys/Phys';
-import NavFooter from './Components/Coding/NavFooter/NavFooter';
 
 function App() {
 	return (
@@ -63,8 +62,8 @@ function App() {
 						<Phys />
 					</Route>
 
-					<Route path="/music" exact>
-						<Music />
+					<Route path="/about" exact>
+						<About />
 					</Route>
 
 					<Route path="/contact" exact>
