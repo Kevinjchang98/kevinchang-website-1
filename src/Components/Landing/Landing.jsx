@@ -6,23 +6,21 @@ import FadeIn from 'react-fade-in';
 
 function Landing() {
 	return (
-		<FadeIn>
-			<div className={style.landingContainer}>
-				<div className={style.landingItems}>
-					<Link to="/music">
-						<p className={style.linkText}>Music</p>
-					</Link>
+		<div className={style.landingContainer}>
+			<FadeIn className={style.landingItems}>
+				<Link to="/programming">
+					<p className={style.linkText}>Coding</p>
+				</Link>
 
-					<Link to="/programming">
-						<p className={style.linkText}>Coding</p>
-					</Link>
+				<Link to="photo">
+					<p className={style.linkText}>Photo & Video</p>
+				</Link>
 
-					<Link to="photo">
-						<p className={style.linkText}>Photo & Video</p>
-					</Link>
-				</div>
-			</div>
-		</FadeIn>
+				<Link to="/about">
+					<p className={style.linkText}>About Me</p>
+				</Link>
+			</FadeIn>
+		</div>
 	);
 }
 

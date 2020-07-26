@@ -1,0 +1,9 @@
+.aboutContainer {
+	margin: 150px 0 0 0;
+
+	display: flex;
+
+	max-width: large;
+
+	justify-content: center;
+}

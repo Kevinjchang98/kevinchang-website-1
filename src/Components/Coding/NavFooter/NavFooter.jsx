@@ -1,13 +1,12 @@
 import React from 'react';
 
 import style from './NavFooter.module.css';
-import FadeIn from 'react-fade-in';
 import { Link } from 'react-router-dom';
 
 function NavFooter(props) {
 	const { siteLink, githubLink } = props;
 
-	if (siteLink != '') {
+	if (siteLink !== '') {
 		return (
 			<div className={style.footerContainer}>
 				<Link to="/programming" className={style.button}>
