@@ -8,37 +8,45 @@ function PersonalWebsite() {
 	return (
 		<div className={style.projectContainer}>
 			<FadeIn className={style.contentContainer}>
-				<h1 className={style.projectTitle}>Individual writeup thing</h1>
+				<h1 className={style.projectTitle}>Personal Portfolio Website</h1>
+
+				<div className={style.descriptionContainer}>
+					<div className={style.descriptionList}>
+						<p className={style.descriptionListItem}>Purpose: Personal</p>
+						<p className={style.descriptionListItem}>Project Type: React.js</p>
+						<p className={style.descriptionListItem}>Date: July, 2020</p>
+					</div>
+					<div className={style.descriptionParagraph}>
+						<p>
+							A personal portfolio website using React.js. Simple and largely monochromatic with a focus
+							on ease of use and readability.
+						</p>
+					</div>
+				</div>
+
+				<h2 className={style.subheading}>Page Design and Layout</h2>
 
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget ex metus. Ut iaculis sem
-					metus, at ultricies ipsum mollis vitae. Mauris lorem sapien, varius vitae ex sed, pulvinar facilisis
-					lacus. Integer ac sagittis metus. Proin varius odio quis luctus dictum. Proin vestibulum id felis
-					dapibus mollis. Ut varius ligula ut sem porttitor, eu aliquet elit suscipit. Praesent tristique quam
-					odio, ut consectetur purus tempus ut. Vestibulum ante ipsum primis in faucibus orci luctus et
-					ultrices posuere cubilia curae; Sed id nulla facilisis, fringilla eros in, eleifend tortor. Nam
-					fringilla nisl ac elementum finibus.
+					With personal projects spanning widely different genres such as photography projects to web design,
+					the initial landing page discretely separates out section of the site.
 				</p>
 
 				<p>
-					Suspendisse sed porta metus, vel molestie felis. Pellentesque pulvinar nisl et nunc commodo
-					sollicitudin. Integer in sapien mauris. Vestibulum a lectus semper, viverra enim eu, fermentum
-					lacus. Aenean efficitur lobortis nisi, sit amet pharetra est semper vel. Maecenas purus nulla,
-					commodo sit amet nunc ut, interdum volutpat est. Etiam ornare lacus at lectus varius, id pretium leo
-					accumsan. Donec sodales placerat leo, eu vestibulum neque vulputate ut. Phasellus cursus cursus
-					enim, vitae rutrum enim molestie sit amet.
+					The coding section is a list of projects with the name, as well as date and languages used, giving a
+					timeline and quick look at the types of projects I've been working on recently. Clicking on the
+					languages or date is a direct link to the relevant Github repository, while clicking on the title
+					brings one to this page, where a detailed writeup is provided, giving commentary on the project.
 				</p>
 
+				<h2 className={style.subheading}>User Experience</h2>
+
 				<p>
-					Mauris sit amet risus turpis. Donec augue quam, volutpat ut condimentum ut, ullamcorper ultricies
-					mi. Integer a consectetur tortor, ut dapibus orci. Etiam vitae libero at massa posuere laoreet non
-					ut enim. Sed non mi a leo ornare hendrerit. Donec dictum rhoncus ipsum non gravida. Fusce cursus
-					ornare nisi, sed porttitor justo dictum et. Nulla maximus vel nisi sed dapibus. Donec gravida massa
-					sit amet felis tristique, sit amet convallis quam consequat. Curabitur congue et lacus nec rhoncus.
-					Etiam fringilla tortor sed ante iaculis laoreet. Aliquam nisl justo, bibendum ut tristique sit amet,
-					porta vitae ipsum. Vestibulum ac lectus et neque dictum pulvinar. Nullam accumsan, nisi ut fermentum
-					blandit, elit mi posuere sapien, eget posuere mi metus a nisi. Maecenas massa metus, malesuada eu ex
-					id, convallis viverra justo. Suspendisse id elit id est viverra ultricies ac in purus.
+					While incorporating relatively common elements to modern portfolio websites such as parallax effects
+					on scroll in the photography section, many other common elements are purposefully left out. For
+					example, inertial scrolling that differs from the native scroll behavior of the OS, custom scroll
+					bars, custom mouse cursors, etc. are left out to avoid giving users a different browsing experience
+					on this site compared to any other website they may be browsing. Animations are also fast enough to
+					prevent viewers from waiting for animations when clicking through the site.
 				</p>
 
 				<NavFooter siteLink="" githubLink="https://github.com/Kevinjchang98/kevinchang-website" />
