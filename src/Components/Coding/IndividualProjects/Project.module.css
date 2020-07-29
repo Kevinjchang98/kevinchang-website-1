@@ -8,8 +8,36 @@
 .contentContainer {
 	margin: 0 200px 0 200px;
 
-	max-width: 1500px;
+	max-width: 1000px;
 	min-width: 400px;
+}
+
+.descriptionContainer {
+	margin-bottom: 50px;
+	border-top: 1px solid var(--nord0);
+	border-bottom: 1px solid var(--nord0);
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.descriptionParagraph {
+	margin: 0 0 0 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2rem;
+	font-weight: 100;
+
+	max-width: 75%;
+}
+
+.descriptionList {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.descriptionListItem {
+	margin: 0.5rem 0 0.5rem 0;
 }
 
 .projectTitle {
@@ -22,6 +50,11 @@
 	font-family: 'Lora', serif;
 	font-size: 2rem;
 	color: var(--nord0);
+}
+
+.image {
+	width: 100%;
+	height: auto;
 }
 
 p {
