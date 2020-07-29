@@ -10,6 +10,8 @@ function Phys() {
 			<FadeIn className={style.contentContainer}>
 				<h1 className={style.projectTitle}>Physics Data Analysis</h1>
 
+				<NavFooter siteLink="" githubLink="https://github.com/Kevinjchang98/PHYS432" />
+
 				<p>
 					Various 4th year undergraduate physics labs allowed for data analysis using Matlab with reports
 					written in LaTeX. Three examples from the Phys 432: Modern Physics Laboratory course are included.
@@ -36,8 +38,6 @@ function Phys() {
 				<h2 className={style.subheading}>Zeeman Effect</h2>
 
 				<p>Something about this lab</p>
-
-				<NavFooter siteLink="" githubLink="https://github.com/Kevinjchang98/PHYS432" />
 			</FadeIn>
 		</div>
 	);

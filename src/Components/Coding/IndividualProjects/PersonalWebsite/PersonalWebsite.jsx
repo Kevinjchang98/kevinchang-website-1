@@ -10,6 +10,8 @@ function PersonalWebsite() {
 			<FadeIn className={style.contentContainer}>
 				<h1 className={style.projectTitle}>Personal Portfolio Website</h1>
 
+				<NavFooter siteLink="" githubLink="https://github.com/Kevinjchang98/kevinchang-website" />
+
 				<div className={style.descriptionContainer}>
 					<div className={style.descriptionList}>
 						<p className={style.descriptionListItem}>Purpose: Personal</p>
@@ -48,8 +50,6 @@ function PersonalWebsite() {
 					on this site compared to any other website they may be browsing. Animations are also fast enough to
 					prevent viewers from waiting for animations when clicking through the site.
 				</p>
-
-				<NavFooter siteLink="" githubLink="https://github.com/Kevinjchang98/kevinchang-website" />
 			</FadeIn>
 		</div>
 	);

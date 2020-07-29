@@ -9,7 +9,7 @@ function Landing() {
 		<div className={style.landingContainer}>
 			<FadeIn className={style.landingItems}>
 				<Link to="/programming">
-					<p className={style.linkText}>Coding</p>
+					<p className={style.linkText}>Programming</p>
 				</Link>
 
 				<Link to="photo">

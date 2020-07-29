@@ -7,6 +7,7 @@ function MenuItem(props) {
 
 	return (
 		<div className={style.itemContainer}>
+			{/* Convert  this to not use div, and put the Link element here to avoid the <a> as descendent of <a> warning */}
 			<h1 className={style.title}>{title}</h1>
 			<div className={style.spacer} />
 
