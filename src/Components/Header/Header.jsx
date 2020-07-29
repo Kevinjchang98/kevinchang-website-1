@@ -23,7 +23,7 @@ function Header() {
 
 	const pathNav = path.map((currentPath) => {
 		return (
-			<Link className={style.headerPath} to={getFullPath(currentPath, path)}>
+			<Link className={style.headerPath} to={getFullPath(currentPath, path)} key={currentPath}>
 				{'/' + currentPath}
 			</Link>
 		);
@@ -34,8 +34,11 @@ function Header() {
 			<Link to="/">
 				<p className={style.headerText}>Kevin Chang</p>
 			</Link>
+
 			<p className={style.headerText}>{path[0] != '' ? pathNav : null}</p>
+
 			<span className={style.middleContainer} />
+
 			<Link to="/contact">
 				<p className={style.headerText}>Contact</p>
 			</Link>
