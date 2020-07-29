@@ -1,6 +1,5 @@
 .codingContainer {
-	margin: 70px 0 0 0;
-	height: calc(100vh - 70px);
+	margin: 150px 0 0 0;
 
 	display: flex;
 	justify-content: center;

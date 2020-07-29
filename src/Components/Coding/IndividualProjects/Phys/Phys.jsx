@@ -17,7 +17,13 @@ function Phys() {
 					written in LaTeX. Three examples from the Phys 432: Modern Physics Laboratory course are included.
 				</p>
 
-				<h2 className={style.subheading}>Hydrogen-Deuterium Mass Ratio</h2>
+				<a
+					href="https://github.com/Kevinjchang98/PHYS432/blob/master/432Lab1/432Lab1-Rev1.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<h2 className={style.subheading}>Hydrogen-Deuterium Mass Ratio</h2>
+				</a>
 
 				<p>
 					This lab used MATLAB to automatically detect the center of various peaks in emission spectra. A
@@ -26,7 +32,13 @@ function Phys() {
 					partners further plotted the data using Python.
 				</p>
 
-				<h2 className={style.subheading}>Frank Hertz Experiment</h2>
+				<a
+					href="https://github.com/Kevinjchang98/PHYS432/blob/master/432Lab3/432Lab3.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<h2 className={style.subheading}>Frank Hertz Experiment</h2>
+				</a>
 
 				{/* Include link and reference to digitize2() */}
 				<p>
@@ -35,9 +47,19 @@ function Phys() {
 					data through using the digitize2() function in MATLAB.
 				</p>
 
-				<h2 className={style.subheading}>Zeeman Effect</h2>
+				<a
+					href="https://github.com/Kevinjchang98/PHYS432/blob/master/432Lab4/432Lab4.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<h2 className={style.subheading}>Zeeman Effect</h2>
+				</a>
 
-				<p>Something about this lab</p>
+				<p>
+					MATLAB was used to automatically find peaks, with manual sampling of the data used to label peaks
+					that were not automatically detected. Other lab partners used Python and furthered the data analysis
+					with the data processed from MATLAB.
+				</p>
 			</FadeIn>
 		</div>
 	);
