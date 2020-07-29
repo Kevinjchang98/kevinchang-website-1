@@ -17,6 +17,10 @@ function LoLStats() {
 		<div className={style.projectContainer}>
 			<FadeIn className={style.contentContainer}>
 				<h1 className={style.projectTitle}>League of Legends Player Stats</h1>
+				<NavFooter
+					siteLink="https://kevinjchang98.shinyapps.io/final-project-Kevinjchang98/"
+					githubLink="https://github.com/Kevinjchang98/INFO201-LoLStats"
+				/>
 
 				<div className={style.descriptionContainer}>
 					<div className={style.descriptionList}>
@@ -114,11 +118,6 @@ function LoLStats() {
 					When plotted linearly, a curve fit with standard error allows for quick understanding of possible
 					trends in the selected statistic
 				</p>
-
-				<NavFooter
-					siteLink="https://kevinjchang98.shinyapps.io/final-project-Kevinjchang98/"
-					githubLink="https://github.com/Kevinjchang98/INFO201-LoLStats"
-				/>
 			</FadeIn>
 		</div>
 	);
