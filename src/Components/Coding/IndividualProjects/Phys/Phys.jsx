@@ -12,10 +12,20 @@ function Phys() {
 
 				<NavFooter siteLink="" githubLink="https://github.com/Kevinjchang98/PHYS432" />
 
-				<p>
-					Various 4th year undergraduate physics labs allowed for data analysis using Matlab with reports
-					written in LaTeX. Three examples from the Phys 432: Modern Physics Laboratory course are included.
-				</p>
+				<div className={style.descriptionContainer}>
+					<div className={style.descriptionList}>
+						<p className={style.descriptionListItem}>Purpose: School lab</p>
+						<p className={style.descriptionListItem}>Project Type: MATLAB, LaTeX</p>
+						<p className={style.descriptionListItem}>Date: Spring, 2020</p>
+					</div>
+					<div className={style.descriptionParagraph}>
+						<p>
+							Various 4th year undergraduate physics labs allowed for data analysis using Matlab with
+							reports written in LaTeX. Three examples from the Phys 432: Modern Physics Laboratory course
+							are included.
+						</p>
+					</div>
+				</div>
 
 				<a
 					href="https://github.com/Kevinjchang98/PHYS432/blob/master/432Lab1/432Lab1-Rev1.pdf"
