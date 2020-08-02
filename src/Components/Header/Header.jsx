@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import style from './Header.module.css';
-import FadeIn from 'react-fade-in';
 
 function Header() {
 	const path = window.location.pathname.split('/').slice(1);
@@ -35,7 +34,7 @@ function Header() {
 				<p className={style.headerText}>Kevin Chang</p>
 			</Link>
 
-			<p className={style.headerText}>{path[0] != '' ? pathNav : null}</p>
+			<p className={style.headerText}>{path[0] !== '' ? pathNav : null}</p>
 
 			<span className={style.middleContainer} />
 
