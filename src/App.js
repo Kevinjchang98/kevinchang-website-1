@@ -17,6 +17,7 @@ import Phys from './Components/Coding/IndividualProjects/Phys/Phys';
 import { photosErika } from './images/photoProjects/erika-portraits/photos';
 import { photosBlueAngels } from './images/photoProjects/blue-angels/photos';
 import { photosDaily } from './images/photoProjects/nikonf3test/photos';
+import LoLFlowers from './Components/Coding/IndividualProjects/LolFlowers/LoLFlowers';
 
 function App() {
 	return (
@@ -77,6 +78,11 @@ function App() {
 					<Route path="/programming/lolstats" exact>
 						<Header />
 						<LoLStats siteLink="" githubLink="" />
+					</Route>
+
+					<Route path="/programming/lolflowers" exact>
+						<Header />
+						<LoLFlowers siteLink="" githubLink="" />
 					</Route>
 
 					<Route path="/programming/phys" exact>
