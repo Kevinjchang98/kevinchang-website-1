@@ -12,6 +12,15 @@ function Coding() {
 				<div className={style.menuContainer}>
 					<h1 className={style.title}>Projects</h1>
 					<FadeIn>
+						<Link to="/programming/lolflowers">
+							<MenuItem
+								title="LoL Flowers"
+								date="Summer, 2020"
+								lang="R, ReactJS, D3"
+								githubLink="https://github.com/Kevinjchang98/lol-stats-flowers"
+							/>
+						</Link>
+
 						<Link to="/programming/personalwebsite">
 							<MenuItem
 								title="kevinchang.com"
