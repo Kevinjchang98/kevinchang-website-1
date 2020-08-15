@@ -12,6 +12,15 @@ function Coding() {
 				<div className={style.menuContainer}>
 					<h1 className={style.title}>Projects</h1>
 					<FadeIn>
+						<Link to="/programming/lolstatsreact">
+							<MenuItem
+								title="LoL Stats in React and D3"
+								date="Summer, 2020"
+								lang="R, ReactJS, D3"
+								githubLink="https://github.com/Kevinjchang98/lol-stats-vis"
+							/>
+						</Link>
+
 						<Link to="/programming/lolflowers">
 							<MenuItem
 								title="LoL Flowers"
@@ -32,7 +41,7 @@ function Coding() {
 
 						<Link to="/programming/lolstats">
 							<MenuItem
-								title="LoL Stats"
+								title="LoL Stats in R Shiny"
 								date="Spring, 2020"
 								lang="R"
 								githubLink="https://github.com/Kevinjchang98/INFO201-League-Stats"
