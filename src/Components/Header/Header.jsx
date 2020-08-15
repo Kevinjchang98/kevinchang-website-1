@@ -1,9 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+
+import useDocumentScrollThrottled from './useDocumentScrollThrottled';
 
 import style from './Header.module.css';
 
 function Header() {
+	// Shadow on scroll
+	// const [ shouldHideHeader, setShouldHideHeader ] = useState(false);
+	const [ shouldShowShadow, setShouldShowShadow ] = useState(false);
+
+	const MINIMUM_SCROLL = 80;
+	const TIMEOUT_DELAY = 400;
+
+	const shadowStyle = shouldShowShadow ? style.shadow : '';
+	// const hiddenStyle = shouldHideHeader ? style.hidden : '';
+
+	useDocumentScrollThrottled((callbackData) => {
+		const { previousScrollTop, currentScrollTop } = callbackData;
+		// const isScrolledDown = previousScrollTop < currentScrollTop;
+		// const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL;
+
+		setShouldShowShadow(currentScrollTop > 2);
+
+		// setTimeout(() => {
+		// 	setShouldHideHeader(isScrolledDown && isMinimumScrolled);
+		// }, TIMEOUT_DELAY);
+	});
+
+	// Path
 	const path = window.location.pathname.split('/').slice(1);
 
 	function getFullPath(currentPath, path) {
@@ -29,7 +54,7 @@ function Header() {
 	});
 
 	return (
-		<div className={style.headerContainer}>
+		<div className={`${style.headerContainer} ${shadowStyle}`}>
 			<Link to="/">
 				<p className={style.headerText}>Kevin Chang</p>
 			</Link>
