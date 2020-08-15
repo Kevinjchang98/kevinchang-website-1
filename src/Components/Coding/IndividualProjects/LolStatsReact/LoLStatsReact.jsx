@@ -16,8 +16,8 @@ function LoLStatsReact() {
 			<FadeIn className={style.contentContainer}>
 				<h1 className={style.projectTitle}>League of Legends Player Stats in ReactJS and D3</h1>
 				<NavFooter
-					siteLink="https://kevinjchang98.shinyapps.io/final-project-Kevinjchang98/"
-					githubLink="https://github.com/Kevinjchang98/INFO201-LoLStats"
+					siteLink="https://lol-stats-vis.netlify.app/"
+					githubLink="https://github.com/Kevinjchang98/lol-stats-vis"
 				/>
 
 				<div className={style.descriptionContainer}>
