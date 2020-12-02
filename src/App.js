@@ -19,6 +19,7 @@ import { photosBlueAngels } from './images/photoProjects/blue-angels/photos';
 import { photosDaily } from './images/photoProjects/nikonf3test/photos';
 import LoLFlowers from './Components/Coding/IndividualProjects/LolFlowers/LoLFlowers';
 import LoLStatsReact from './Components/Coding/IndividualProjects/LolStatsReact/LoLStatsReact';
+import XrayClassifier from './Components/Coding/IndividualProjects/XrayClassifier/XrayClassifier';
 
 function App() {
 	return (
@@ -89,6 +90,11 @@ function App() {
 					<Route path="/programming/lolflowers" exact>
 						<Header />
 						<LoLFlowers siteLink="" githubLink="" />
+					</Route>
+
+					<Route path="/programming/xrayclassifier" exact>
+						<Header />
+						<XrayClassifier siteLink="" githubLink="" />
 					</Route>
 
 					<Route path="/programming/phys" exact>

@@ -12,6 +12,15 @@ function Coding() {
 				<div className={style.menuContainer}>
 					<h1 className={style.title}>Projects</h1>
 					<FadeIn>
+						<Link to="/programming/xrayclassifier">
+							<MenuItem
+								title="Pneumonia Xray Classifier"
+								date="Fall, 2020"
+								lang="Python, Scikit-Learn, Flask, React"
+								githubLink="https://github.com/Kevinjchang98/pneumonia-ml-flask"
+							/>
+						</Link>
+
 						<Link to="/programming/lolstatsreact">
 							<MenuItem
 								title="LoL Stats in React and D3"
