@@ -1,9 +1,50 @@
 .aboutContainer {
-	margin: 150px 0 0 0;
+    margin: 150px 0 0 0;
 
-	display: flex;
+    display: flex;
 
-	max-width: large;
+    max-width: large;
 
-	justify-content: center;
+    justify-content: center;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.subcontentContainer {
+    flex: 2;
+    justify-content: center;
+    padding-left: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+.sectionTitle {
+    margin-left: 10vw;
+    margin-top: 25vh;
+    margin-bottom: 2.5vh;
+
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 5rem;
+
+    color: var(--nord0);
+}
+
+.subsectionTitle {
+    font-family: 'Raleway', sans-serif;
+    color: var(--nord0);
+
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.details {
+    font-family: 'Raleway', sans-serif;
+    color: var(--nord0);
+
+    font-size: 1.5rem;
+    font-weight: 100;
 }

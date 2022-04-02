@@ -12,6 +12,24 @@ function Coding() {
 				<div className={style.menuContainer}>
 					<h1 className={style.title}>Projects</h1>
 					<FadeIn>
+						<Link to="/programming/schedulemaster">
+							<MenuItem
+								title="Schedulemaster Dashboard"
+								date="Spring, 2022"
+								lang="NextJS, D3.js, NoSQL, TypeScript"
+								githubLink="https://github.com/Kevinjchang98/schedulemaster_dashboard"
+							/>
+						</Link>
+
+						<Link to="/programming/flightschooldb">
+							<MenuItem
+								title="Flight School Database"
+								date="Fall, 2021"
+								lang="ReactJS, NodeJS, MySQL"
+								githubLink="https://github.com/Kevinjchang98/CS5021-Project-React"
+							/>
+						</Link>
+
 						<Link to="/programming/xrayclassifier">
 							<MenuItem
 								title="Pneumonia Xray Classifier"
@@ -39,14 +57,14 @@ function Coding() {
 							/>
 						</Link>
 
-						<Link to="/programming/personalwebsite">
+						{/* <Link to="/programming/personalwebsite">
 							<MenuItem
 								title="kevinchang.com"
 								date="July, 2020"
 								lang="ReactJS"
 								githubLink="https://github.com/Kevinjchang98/kevinchang-website"
 							/>
-						</Link>
+						</Link> */}
 
 						<Link to="/programming/lolstats">
 							<MenuItem
