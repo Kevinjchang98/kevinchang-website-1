@@ -17,12 +17,18 @@ function Contact() {
 
 					<div className={style.subcontentContainer}>
 						<h2 className={style.subsectionTitle}>Contact</h2>
-						<p className={style.details}>kevinjchang98@gmail.com</p>
+						<a href='mailto:kevinjchang98@gmail.com' className={style.details}>kevinjchang98@gmail.com</a>
 					</div>
 
 					<div className={style.subcontentContainer}>
 						<h2 className={style.subsectionTitle}>Follow</h2>
-						<p className={style.details}>Put some links here</p>
+                        <p className={style.details}>
+                            <a href='https://github.com/Kevinjchang98'>Github</a>
+                        </p>
+
+                        <p className={style.details}>
+                            <a href='https://www.linkedin.com/in/kevin-c-b69345b2/'>LinkedIn</a>
+                        </p>
 					</div>
 				</div>
 			</FadeIn>
