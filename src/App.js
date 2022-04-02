@@ -10,7 +10,7 @@ import PhotoProject from './Components/Photo/PhotoProject/PhotoProject';
 import VideoProject from './Components/Photo/VideoProject/VideoProject';
 import Coding from './Components/Coding/Coding';
 import About from './Components/About/About';
-import PersonalWebsite from './Components/Coding/IndividualProjects/PersonalWebsite/PersonalWebsite';
+// import PersonalWebsite from './Components/Coding/IndividualProjects/PersonalWebsite/PersonalWebsite';
 import LoLStats from './Components/Coding/IndividualProjects/LoLStats/LoLStats';
 import Phys from './Components/Coding/IndividualProjects/Phys/Phys';
 
@@ -20,6 +20,7 @@ import { photosDaily } from './images/photoProjects/nikonf3test/photos';
 import LoLFlowers from './Components/Coding/IndividualProjects/LolFlowers/LoLFlowers';
 import LoLStatsReact from './Components/Coding/IndividualProjects/LolStatsReact/LoLStatsReact';
 import XrayClassifier from './Components/Coding/IndividualProjects/XrayClassifier/XrayClassifier';
+import SchedulemasterDashboard from './Components/Coding/IndividualProjects/SchedulemasterDashboard/SchedulemasterDashboard';
 
 function App() {
 	return (
@@ -72,10 +73,10 @@ function App() {
 						<Coding />
 					</Route>
 
-					<Route path="/programming/personalwebsite" exact>
+					{/* <Route path="/programming/personalwebsite" exact>
 						<Header />
 						<PersonalWebsite />
-					</Route>
+					</Route> */}
 
 					<Route path="/programming/lolstats" exact>
 						<Header />
@@ -102,6 +103,11 @@ function App() {
 						<Phys />
 					</Route>
 
+					<Route path="/programming/schedulemaster" exact>
+						<Header />
+						<SchedulemasterDashboard />
+					</Route>
+                    
 					<Route path="/about" exact>
 						<Header />
 						<About />
