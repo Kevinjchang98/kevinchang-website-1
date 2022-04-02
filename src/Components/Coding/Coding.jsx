@@ -21,6 +21,15 @@ function Coding() {
 							/>
 						</Link>
 
+						<Link to="/programming/flightschooldb">
+							<MenuItem
+								title="Flight School Database"
+								date="Fall, 2021"
+								lang="ReactJS, NodeJS, MySQL"
+								githubLink="https://github.com/Kevinjchang98/CS5021-Project-React"
+							/>
+						</Link>
+
 						<Link to="/programming/xrayclassifier">
 							<MenuItem
 								title="Pneumonia Xray Classifier"

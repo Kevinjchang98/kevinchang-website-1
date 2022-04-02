@@ -20,6 +20,7 @@ import { photosDaily } from './images/photoProjects/nikonf3test/photos';
 import LoLFlowers from './Components/Coding/IndividualProjects/LolFlowers/LoLFlowers';
 import LoLStatsReact from './Components/Coding/IndividualProjects/LolStatsReact/LoLStatsReact';
 import XrayClassifier from './Components/Coding/IndividualProjects/XrayClassifier/XrayClassifier';
+import FlightschoolDB from './Components/Coding/IndividualProjects/FlightschoolDB/FlightschoolDB';
 import SchedulemasterDashboard from './Components/Coding/IndividualProjects/SchedulemasterDashboard/SchedulemasterDashboard';
 
 function App() {
@@ -106,6 +107,11 @@ function App() {
 					<Route path="/programming/schedulemaster" exact>
 						<Header />
 						<SchedulemasterDashboard />
+					</Route>
+                    
+					<Route path="/programming/flightschooldb" exact>
+						<Header />
+						<FlightschoolDB />
 					</Route>
                     
 					<Route path="/about" exact>
