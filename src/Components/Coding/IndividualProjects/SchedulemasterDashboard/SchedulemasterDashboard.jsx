@@ -83,7 +83,7 @@ function SchedulemasterDashboard() {
                     possible due to a lack of hours on the aircraft. Each name can be clicked to view details about the schedule. The sample data is from Schedulemaster's sample club, and thus is sparse; a very large range is used in the time filter, but if using real data one would likely only be viewing the next week or so.
                 </p>
 
-				<img src={scheduledFlights} alt="Example prediction" className={style.image} />
+				<img src={scheduledFlights} alt="Example of scheduled flights section" className={style.image} />
 
                 <p>
                     At the bottom of the homepage, there are then some various
@@ -91,7 +91,7 @@ function SchedulemasterDashboard() {
                     Schedulemaster. These were done with D3.
                 </p>
 
-				<img src={flightsPerWeekday} alt="Example prediction" className={style.image} />
+				<img src={flightsPerWeekday} alt="Example of flights per weekday graph" className={style.image} />
 
                 <p>
                     Clicking through each aircraft in the first section also
@@ -100,7 +100,7 @@ function SchedulemasterDashboard() {
                     the past year.
                 </p>
 
-				<img src={details} alt="Example prediction" className={style.image} />
+				<img src={details} alt="Example of individual aircraft details page" className={style.image} />
             </FadeIn>
         </div>
     );
